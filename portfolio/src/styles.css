@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(49, 51, 51);
+}
+
+.w-full {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-flow: column;
+}
+
+.flex-row {
+    flex-flow: row;
+}
+.grow {
+    flex-grow: 1;
+}
+
+@media only screen and (min-width:200px) and (max-width:880px)  {
+  
+    body,html {
+      padding: 0;
+      gap: 0;
+      flex-flow: column;
+      width: 100vw;
+      box-sizing: border-box;
+    }
+}

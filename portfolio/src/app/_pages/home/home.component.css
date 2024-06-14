@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Noto+Sans+TC:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Noto+Sans+TC:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Noto+Sans+TC:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+.ok {
+  display: flex;
+  gap:20px;
+}
+@font-face {
+    font-family: anton;
+    src: url('../../../assets/files/fonts/Anton-Regular.ttf');
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-flow: column;
+}
+.about {
+    height: auto;
+}
+
+.avatar {
+  
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: ops 1s ease-out forwards;
+}
+.about-text {
+    width: 140px;
+    display: flex;
+    text-align: center;
+    color: rgb(175, 172, 172);
+    font-family: "Outfit", sans-serif;
+    font-size: 13px;
+
+}
+
+.profile {
+    width: 250px;
+    height: 220px;
+  
+    border-radius: 2px;
+    background-color: rgb(69, 70, 70);
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* Responsive */
+@media only screen and (min-width:200px) and (max-width:780px)  {
+  body {
+    padding: 0;
+    gap: 0;
+    flex-flow: column;
+  }
+  .about-ariyan {
+    width: 100vw;
+  }
+
+}
+
+.name {
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.about-ariyan {
+    width: 240px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 5px;
+    background-color:rgba(19, 19, 31, 0.74);
+}
+
+.abouts {
+    width: 220px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.abouts-my {
+    display: flex;
+    flex-flow: column;
+    gap: 7px;
+    height:80px;
+    border-bottom: 1.5px solid gray;
+}
+
+.charts {
+    display: flex;
+    height:120px;
+    border-bottom: 1.5px solid gray;
+}
+.chart {
+    display: flex;
+    gap: 15px;
+
+
+}
+span {
+    justify-content: space-between;
+}
+
+
+.text {
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+}
+
+
+.white {
+    color: white;
+}
+.gray {
+    color: gray;
+}
+
+.circular-chart {
+	display: block;
+    width: 100%;
+	max-width: 60px;
+	max-height: 60px;
+
+  }
+
+
+  text {
+	font-size: 10px;
+    background-color: white;
+    font-family: "Outfit";
+  }
+  .circle-1 {
+	stroke: orange;
+	fill: none;
+	stroke-width: 2.3;
+	stroke-linecap: round;
+	animation: progress 1s ease-out forwards;
+  }
+
+
+  .paths {
+	fill: none;
+	stroke-width:  1.8;
+	stroke-linecap: round;
+	stroke: rgba(0,0,0,255);
+    stroke-opacity: 50%;
+
+  }
+
+
+  .chart-s {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  @keyframes progress {
+	0% {
+	  stroke-dasharray: 0 100;
+      width: 0;
+	}
+  }
+
+  @keyframes ops {
+    0% {
+      transform: rotate(50deg);
+      opacity: 0;
+    }
+    }
+
+
+
+
+
+
+
+
+
+  .statisticss {
+    display: flex;
+    flex-flow: column;
+    gap: 19px;
+    height: 260px;
+    border-bottom: 1.5px solid gray;
+  }
+
+  .statistics {
+    display: flex;
+    flex-flow: column;
+    gap: 6px;
+  }
+
+
+  .statistics-rectangle {
+    width: 100%;
+    border-radius: 20px;
+    height: 4px;
+    background-color: rgb(61, 61, 61);
+  }
+
+  .rectangle {
+    height: 4px;
+    background-color: orange;
+    border-radius: 20px;
+    animation: progress 1s ease-out forwards;
+  }
+
+  .px95 {
+    width: 95%;
+  }
+
+  .px90 {
+    width: 90%;
+  }
+
+  .px50 {
+    width: 50%;
+  }
+
+  .px20 {
+    width: 20%;
+  }
+
+  .px5 {
+    width: 5%;
+  }
+
+  .Expertise {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+  }
+
+  .Exp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+  }
+
+
+  .Specialties {
+    height: 120px;
+    display: flex;
+    border-bottom: 1.5px solid gray; 
+  }
+
+  footer {
+    
+    
+    height: auto;
+    padding: 10px;
+    background-color:rgba(47, 47, 59, 0.74);
+  }
+
+  footer .item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+
+
+  .ordersss {
+    width:1000px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    height: 900px;
+    padding: 20px;
+    background-color:rgba(19, 19, 31, 0.74);
+    
+  }
+
+  .avatar-2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: auto;
+    width: auto;
+  }
+  .texts {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+  .title {
+    width: auto;
+    height: 300px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background:url("../../../assets/files/back-prof.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .font-large {
+    font-size: 35px;
+  }
+  .texts {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+  }
+
+  .yellow {
+    color: yellow;
+  }
+
+  .text-code {
+    display: flex;
+  }
+
+  .Explore {
+    width: 180px;
+    transition: all 1s;
+    height: 50px;
+    background-color: orange;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    animation: easy 1s ease-out forwards;
+  }
+
+  .Explore:hover{
+    transition: all 1s ease-out forwards;
+    transform: rotate(5deg);
+    background-color: rgba(104, 71, 9, 0.411);
+  }
+
+
+
+
+
+.history {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.org {
+  color: orange;
+}
+.text {
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: flex-start;
+}
+
+.servicehs {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+.services {
+  display: flex;
+  flex-flow: column;
+}
+
+.servicesss {
+  background-color: rgb(46, 45, 45);
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+
+  
+}
+
+.ord {
+ transition: all 1s; 
+}
+.ord:hover {
+  transition: all 1s ; 
+  color: rgba(255, 166, 0, 0.445);
+  cursor: pointer;
+}
+.row-1,.row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+/* Responsive */
+@media only screen and (min-width:200px) and (max-width:880px)  {
+  
+  body,html {
+    padding: 0;
+    gap: 0;
+    flex-flow: column;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .about-ariyan {
+    width:auto;
+  }
+
+  .profile {
+    width: auto;
+  }
+  .footer {
+    width: auto;
+  }
+  .orderss {
+    padding: 0;
+  }
+  .title {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    
+    width: 100%;
+    background-size: 100%;
+  }
+  .ok {
+    flex-flow: column;
+  }
+  .title button {
+    width: 100px;
+    height: 30px;
+  }
+  .avatar-2 {
+    width: 60px;
+    height: 60px;
+  }
+  .font-large {
+    font-size: 18px;
+  }
+
+  .history {
+    flex-flow: column;
+  }
+  .ordersss {
+    background-color:rgba(19, 19, 31, 0.74);
+    height: auto;
+    width: 100%;
+  }
+  .tit {
+    text-align: center;
+    justify-content: center;
+  }
+  .row-1,.row-2 {
+    gap: 20px;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

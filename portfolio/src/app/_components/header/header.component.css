@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    font-family: sans-serif;
+    display: flex;
+
+    background-color: black;
+    border-bottom: solid 1px white;
+    animation: progress ease-out forwards;
+}
+
+header button {
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+}
+
+@keyframes progress {
+    0% {
+        border-bottom: 0;
+    }
+}
